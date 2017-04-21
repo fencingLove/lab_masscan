@@ -1,4 +1,5 @@
 #encoding=utf-8
+#useage:sudo python start.py(挂载可以使用sudo nohup python start.py&)
 import nmap
 import os
 import time
