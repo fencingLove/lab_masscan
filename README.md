@@ -20,7 +20,7 @@ a)根据config.txt中的注释，修改所在行的内容
   adapter-ip = 0.0.0.0
   adapter-mac = 00:00:00:00:00:00
   router-mac = 00:00:00:00:00:00
-  # OUTPUT/REPORTING SETTINGS
+  #OUTPUT/REPORTING SETTINGS
   output-format = xml
   show = open,,
   output-filename = /home/xxxxxxxxxxxxxx/lab_masscan2/masscan_result.txt   #注意！这里把目录修改成你的个人目录
@@ -29,7 +29,7 @@ a)根据config.txt中的注释，修改所在行的内容
   rotate-offset = 0
   rotate-filesize = 0
   pcap =
-  # TARGET SELECTION (IP, PORTS, EXCLUDES)
+  #TARGET SELECTION (IP, PORTS, EXCLUDES)
   retries = 0
   ports = 6379,11211,27017，16379,26379          #尽量多写一些端口，为了缓解漏掉在非默认端口开服务的情况
   range=192.168.1.1-192.168.1.254                #配置IP范围
